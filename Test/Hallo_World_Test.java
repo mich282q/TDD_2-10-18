@@ -6,7 +6,7 @@ public class Hallo_World_Test {
     @Test
 
     public void test() {
-        Testing testing = new Testing();
+        Testing testing = new Testing("fuck");
         assertEquals("Hallo World", testing.getMessage());
 
     }
