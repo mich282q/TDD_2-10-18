@@ -10,4 +10,12 @@ public class Hallo_World_Test {
         assertEquals("Hallo World", testing.getMessage());
 
     }
+
+        @Test
+
+        public void test1() {
+            Testing testing = new Testing("Hallo World");
+            assertEquals("Is't right", testing.getMessage());
+
+        }
 }
