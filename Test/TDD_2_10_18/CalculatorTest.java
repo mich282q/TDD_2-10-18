@@ -1,4 +1,5 @@
-import mich282q.Calculator;
+package TDD_2_10_18;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

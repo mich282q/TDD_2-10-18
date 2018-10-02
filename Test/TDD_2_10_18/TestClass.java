@@ -1,6 +1,6 @@
-import mich282q.Testing;
+package TDD_2_10_18;
+
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
 
 public  class TestClass {
@@ -10,7 +10,7 @@ public  class TestClass {
     @Test
     public void DoesTheObjectExist() {
         try {
-            Class.forName("mich282q.Calculator");
+            Class.forName("TDD_2_10_18.Calculator");
         } catch (ClassNotFoundException e) {
             assert(false);
         }
@@ -23,7 +23,7 @@ public  class TestClass {
     @Test
     public void DoesTheObjectExist1() {
         try {
-            Class.forName("mich282q.Testing");
+            Class.forName("TDD_2_10_18.Testing");
         } catch (ClassNotFoundException e) {
             assert(false);
         }
